@@ -47,7 +47,6 @@ createNavBar();
 // When scrolling through sections, active section is detected and "your-active-class" is added.
 
 function activeSection(){
-    const smooth = document.querySelector('html');
     window.addEventListener('scroll', ()=>{
         for (sec of sectionList){
             const rect = sec.getBoundingClientRect();
